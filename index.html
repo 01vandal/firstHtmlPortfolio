@@ -10,31 +10,41 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  
+  
+  
   </head>
   <body>
-    <nav class=".navbar">
+
+
+
+
+
+    <h1>My awfully created website is coming to conquer</h1>
+    <nav class="navbar">
       <ul>
-        <a href="#home"><li>Home</li></a>
-        <a href="#about"><li>About</li></a>
-        <a href="#work"><li>Work</li></a>
-        <a href="#resume"><li>Resume</li></a>
-        <a href="#contact"><li>Contact</li></a>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
 
     <header id="home">
       <h3>Here it is our work of art</h3>
-      <iframe
-        src="https://youtu.be/hExRDVZHhig?si=EXMym3mr4By0FnEE"
-        height="300"
-        width="600"
-      ></iframe>
+      <img src="./workofart.jpg" alt="our_work" class="workofart">
+      <!-- <iframe src="https://youtu.be/hExRDVZHhig?si=EXMym3mr4By0FnEE"></iframe> -->
     </header>
 
     <section id="about">
       <h3>Long story short</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, commodi
+      <p class="about_us">
+        <b>Lorem ipsum dolor sit amet </b>consectetur adipisicing elit. Nisi, commodi
         pariatur vel eius nam ut. Quaerat voluptatem repudiandae velit, saepe
         reprehenderit ex necessitatibus inventore natus reiciendis architecto
         sit odit hic voluptate non, magni rem impedit fugit recusandae illo ut
@@ -52,13 +62,13 @@
     <section id="work">
       <h3>Our favorite animals we worked on cloning them:</h3>
       <br />
-      <img src="dog.webp" alt="" />
-      <img src="cat.webp" alt="" />
+      <img src="./dog.webp" alt="dog" class="dog" />
+      <img src="./cat.webp" alt="cat" class="cat" />
     </section>
 
     <article id="resume">
       <h3>This is not a resume it is an article hahahah!</h3>
-      <p>
+      <p class="our_resume">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
         quasi eveniet, corporis culpa reprehenderit repellat eius impedit harum
         error natus, temporibus consequatur illo necessitatibus sapiente
@@ -101,26 +111,18 @@
       <div class="footer-content">
         <div class="social-media">
           <h3>Follow Me</h3>
-          <ul>
+          <ul class="mycontacts">
             <li>
-              <a href="https://www.linkedin.com/in/yourprofile" target="_blank"
-                >LinkedIn</a
-              >
+              <a href="#" target="_blank">LinkedIn</a>
             </li>
             <li>
-              <a href="https://github.com/yourprofile" target="_blank"
-                >GitHub</a
-              >
+              <a href="#" target="_blank">GitHub</a>
             </li>
             <li>
-              <a href="https://twitter.com/yourprofile" target="_blank"
-                >Twitter</a
-              >
+              <a href="#" target="_blank">Twitter</a>
             </li>
             <li>
-              <a href="https://www.instagram.com/yourprofile" target="_blank"
-                >Instagram</a
-              >
+              <a href="#" target="_blank">Instagram</a>
             </li>
           </ul>
         </div>
@@ -137,8 +139,11 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2024 GOMYCODE. All rights reserved.</p>
+        <p>&copy; 2024 <b>GOMYCODE</b>. All rights reserved.</p>
       </div>
     </footer>
   </body>
+
+
+
 </html>

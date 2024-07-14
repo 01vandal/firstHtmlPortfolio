@@ -1,0 +1,93 @@
+body {
+    font-family: 'Roboto';
+}
+
+header,
+section,
+article,
+footer {
+    margin: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0px;
+    padding: 30px;
+    background-color: aquamarine;
+}
+
+.cat {
+    height: 500px;
+    width: 700px;
+    margin: 30;
+}
+
+.dog {
+    height: 500px;
+    width: 700px;
+    margin: 30;
+}
+
+
+
+.navbar ul {
+    list-style-type: none;
+    background-color: rgb(74, 0, 123);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    // text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+    &:hover {
+        color: gold;
+        background-color: darkslategrey;
+    }
+}
+
+.navbar li {
+    float: left;
+}
+
+footer {
+    background-color: rgb(197, 197, 197);
+    margin: 0;
+    padding: 30px;
+}
+
+.about_us,
+.our_resume {
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.workofart {
+    height: 50%;
+    width: 50%;
+}
+
+.mycontacts {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+
+    li {
+        float: left;
+        padding: 10px;
+        margin: 10px;
+    }
+}
+
+.contact_info>p {
+    padding-right: 20px;
+    margin-right: 20px;
+    // Here I did not know how to make that padding work
+}
