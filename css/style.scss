@@ -32,6 +32,7 @@ h1 {
     background-color: rgb(134, 0, 223);
     display: flex;
     justify-content: center;
+    gap: 40px;
 }
 
 .navbar ul {
@@ -39,7 +40,6 @@ h1 {
     padding: 10px;
     margin: 0px;
     overflow: hidden;
-    
     // text-align: center;
 }
 
